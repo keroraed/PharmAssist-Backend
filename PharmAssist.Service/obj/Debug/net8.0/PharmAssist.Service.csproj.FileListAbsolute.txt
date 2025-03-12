@@ -1,0 +1,34 @@
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.deps.json
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.runtimeconfig.json
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.dll
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.pdb
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Core.dll
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Core.pdb
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.AssemblyInfo.cs
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAss.94AEB37E.Up2Date
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.dll
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\refint\PharmAssist.Service.dll
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.pdb
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.genruntimeconfig.cache
+C:\Users\Hp\Desktop\PharmAssist\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\ref\PharmAssist.Service.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.deps.json
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.runtimeconfig.json
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.pdb
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Core.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Core.pdb
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.csproj.AssemblyReference.cache
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.AssemblyInfoInputs.cache
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.AssemblyInfo.cs
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.csproj.CoreCompileInputs.cache
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAss.94AEB37E.Up2Date
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\refint\PharmAssist.Service.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.pdb
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.genruntimeconfig.cache
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\ref\PharmAssist.Service.dll
