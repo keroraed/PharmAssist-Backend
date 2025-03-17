@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using PharmAssist.Core.Entities.Identity;
 using PharmAssist.DTOs;
 using PharmAssist.Errors;
+using PharmAssist.Extensions;
 using PharmAssist.Repository.Services;
 using System.Security.Claims;
 
@@ -21,13 +22,14 @@ namespace PharmAssist.Controllers
 
 		public AccountsController(UserManager<AppUser> userManager,
 			SignInManager<AppUser> signInManager,
-			   ITokenService tokenService
+			   ITokenService tokenService,
+			   IMapper mapper
 			   )
         { 
 			_userManager = userManager;
 			_signInManager = signInManager;
 			_tokenService = tokenService;
-			//_mapper = mapper;
+			_mapper = mapper;
 		}
 
 		//public AccountsController()
@@ -82,52 +84,51 @@ namespace PharmAssist.Controllers
 		}
 
 
-		////Get Current User
-		//[Authorize]
-		//[HttpGet("GetCurrentUser")]
-		//public async Task<ActionResult<UserDTO>> GetCurrentUser()
-		//{
-		//	var email= User.FindFirstValue(ClaimTypes.Email);
-		//	var user=await _userManager.FindByEmailAsync(email);
-		//	var returnedUser = new UserDTO()
-		//	{
-		//		DisplayName=user.DisplayName,
-		//		Email=user.Email,
-		//		Token=await _tokenService.CreateTokenAsync(user,_userManager)
-		//	};
-		//	return Ok(returnedUser);
-		//}
+		[Authorize]
+		[HttpGet("GetCurrentUser")]
+		public async Task<ActionResult<UserDTO>> GetCurrentUser()
+		{
+			var email = User.FindFirstValue(ClaimTypes.Email);
+			var user = await _userManager.FindByEmailAsync(email);
+			var returnedUser = new UserDTO()
+			{
+				DisplayName = user.DisplayName,
+				Email = user.Email,
+				Token = await _tokenService.CreateTokenAsync(user, _userManager)
+			};
+			return Ok(returnedUser);
+		}
 
 
-		//[Authorize]
-		//[HttpGet("CurrentUserAddress")]
-		//public async Task<ActionResult<AddressDTO>> GetCurrentAddress()
-		//{
-		//	var user=await _userManager.FindUserWithAddressAsync(User);
-		//	var mappedAddress=_mapper.Map<Address,AddressDTO>(user.Address);
-		//	return Ok(mappedAddress);
-		//}
+		[Authorize]
+		[HttpGet("CurrentUserAddress")]
+		public async Task<ActionResult<AddressDTO>> GetCurrentUserAddress()
+		{
+			var user = await _userManager.FindUserWithAddressAsync(User);
+			var mappedAddress = _mapper.Map<Address, AddressDTO>(user.Address);
+			return Ok(mappedAddress);
+		}
 
 
-		//[Authorize]
-		//[HttpPut("Address")]
-		//public async Task<ActionResult<AddressDTO>> UpdateAddress(AddressDTO updatedAddress)
-		//{
-		//	var user = await _userManager.FindUserWithAddressAsync(User);
-		//	if (user is null) return Unauthorized(new ApiResponse(401));
-		//	var address = _mapper.Map<AddressDTO, Address>(updatedAddress);
-		//	address.Id=user.Address.Id; //3shan my3mlsh delete lel row w y-create wahd gded
-		//	user.Address = address;
-		//	var result= await _userManager.UpdateAsync(user);
-		//	if (!result.Succeeded) return BadRequest(new ApiResponse(400));
-		//	return Ok(updatedAddress);
-		//}
+		[Authorize]
+		[HttpPut("Address")]
+		public async Task<ActionResult<AddressDTO>> UpdateAddress(AddressDTO updatedAddress)
+		{
+			var user = await _userManager.FindUserWithAddressAsync(User);
+			if (user is null) return Unauthorized(new ApiResponse(401));
+			var address = _mapper.Map<AddressDTO, Address>(updatedAddress);
+			address.Id = user.Address.Id; //3shan my3mlsh delete lel row w y-create wahd gded
+			user.Address = address;
+			var result = await _userManager.UpdateAsync(user);
+			if (!result.Succeeded) return BadRequest(new ApiResponse(400));
+			return Ok(updatedAddress);
+		}
 
 
 		[HttpGet("emailExists")]
 		 public async Task<ActionResult<bool>> CheckEmailExists(string email)
-		{
+		 {
 			return await _userManager.FindByEmailAsync(email) is not null;
-		}
+		 }
 	}
 }

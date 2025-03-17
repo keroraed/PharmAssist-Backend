@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PharmAssist.Errors;
+using PharmAssist.Helpers;
 
 
 namespace PharmAssist.Extensions
@@ -14,7 +15,7 @@ namespace PharmAssist.Extensions
 			//Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
 
 
-			//Services.AddAutoMapper(typeof(MappingProfiles));
+			Services.AddAutoMapper(typeof(MappingProfiles));
 
 			#region Error Handling
 			Services.Configure<ApiBehaviorOptions>(Options =>

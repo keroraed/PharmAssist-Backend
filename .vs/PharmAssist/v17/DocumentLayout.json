@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\bosy\\graduation project\\pharmassist code\\pharmassist\\pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\bosy\\graduation project\\pharmassist code\\pharmassist\\pharmassist\\extensions\\applicationservicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\extensions\\applicationservicesextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\bosy\\graduation project\\pharmassist code\\pharmassist\\pharmassist\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\bosy\\graduation project\\pharmassist code\\pharmassist\\pharmassist\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.API.csproj|d:\\bosy\\graduation project\\pharmassist code\\pharmassist\\pharmassist\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.API.csproj|solutionrelative:pharmassist\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +47,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationServicesExtension.cs",
+              "DocumentMoniker": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\Extensions\\ApplicationServicesExtension.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Extensions\\ApplicationServicesExtension.cs",
+              "ToolTip": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\Extensions\\ApplicationServicesExtension.cs",
+              "RelativeToolTip": "PharmAssist\\Extensions\\ApplicationServicesExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:34:35.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\Helpers\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Helpers\\MappingProfiles.cs",
+              "ToolTip": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\Helpers\\MappingProfiles.cs",
+              "RelativeToolTip": "PharmAssist\\Helpers\\MappingProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:28:35.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\DTOs\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\DTOs\\AddressDTO.cs",
+              "ToolTip": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\DTOs\\AddressDTO.cs",
+              "RelativeToolTip": "PharmAssist\\DTOs\\AddressDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:22:30.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "APIBaseController.cs",
+              "DocumentMoniker": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\Controllers\\APIBaseController.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\APIBaseController.cs",
+              "ToolTip": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\Controllers\\APIBaseController.cs",
+              "RelativeToolTip": "PharmAssist\\Controllers\\APIBaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T21:10:23.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\Controllers\\AccountsController.cs*",
+              "RelativeToolTip": "PharmAssist\\Controllers\\AccountsController.cs*",
+              "ViewState": "AQIAAGsAAAAAAAAAAADwv2gAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T23:59:08.651Z",
+              "EditorCaption": ""
             }
           ]
         }
