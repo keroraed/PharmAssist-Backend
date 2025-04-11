@@ -16,7 +16,8 @@ namespace PharmAssist.Extensions
 		{
 			services.AddScoped<ITokenService, TokenService>();
 			services.AddIdentity<AppUser,IdentityRole>()
-				    .AddEntityFrameworkStores<AppIdentityDbContext>();
+				    .AddEntityFrameworkStores<AppIdentityDbContext>()
+					.AddDefaultTokenProviders();
 
 			//generate token by scheme     //UserManager / SigninManager / RoleManager
 			services.AddAuthentication(options =>

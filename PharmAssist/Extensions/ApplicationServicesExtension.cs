@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using PharmAssist.Core.Services;
 using PharmAssist.Errors;
 using PharmAssist.Helpers;
+using PharmAssist.Service;
 
 
 namespace PharmAssist.Extensions
@@ -13,6 +16,8 @@ namespace PharmAssist.Extensions
 			//Services.AddScoped<IUnitOfWork, UnitOfWork>();
 			//Services.AddScoped(typeof(IOrderService),typeof(OrderService));
 			//Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
+			Services.AddScoped<IEmailService, EmailService>();
+			Services.Configure<IdentityOptions>(options => options.SignIn.RequireConfirmedEmail = true);
 
 
 			Services.AddAutoMapper(typeof(MappingProfiles));

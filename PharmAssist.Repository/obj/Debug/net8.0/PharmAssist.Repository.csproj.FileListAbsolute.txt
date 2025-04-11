@@ -32,3 +32,4 @@ D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\o
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.pdb
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.genruntimeconfig.cache
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\obj\Debug\net8.0\ref\PharmAssist.Repository.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.sourcelink.json

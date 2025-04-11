@@ -1,7 +1,11 @@
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
+using PharmAssist.Core.Entities.Email;
 using PharmAssist.Core.Entities.Identity;
+using PharmAssist.Core.Entities.OTP;
 using PharmAssist.Extensions;
 using PharmAssist.MiddleWares;
 using PharmAssist.Repository.Identity;
@@ -41,6 +45,11 @@ namespace PharmAssist
 			builder.Services.AddApplicationServices();
 
 			builder.Services.AddIdentityServices(builder.Configuration);
+			builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("EmailConfiguration"));
+			builder.Services.AddSingleton(resolver => resolver.GetRequiredService<IOptions<EmailConfig>>().Value);
+			builder.Services.Configure<OtpConfiguration>(builder.Configuration.GetSection("OtpConfiguration"));
+			builder.Services.AddSingleton(resolver => resolver.GetRequiredService<IOptions<OtpConfiguration>>().Value);
+
 			//builder.Services.AddCors(Options =>
 			//{
 			//	Options.AddPolicy("MyPolicy", options =>

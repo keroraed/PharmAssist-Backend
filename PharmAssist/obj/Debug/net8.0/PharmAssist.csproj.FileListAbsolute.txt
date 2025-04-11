@@ -313,3 +313,8 @@ D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\obj\Debug\ne
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\obj\Debug\net8.0\PharmAssist.genruntimeconfig.cache
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\obj\Debug\net8.0\ref\PharmAssist.dll
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\obj\Debug\net8.0\PharmAssist.sourcelink.json
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\bin\Debug\net8.0\MailKit.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\bin\Debug\net8.0\MimeKit.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
