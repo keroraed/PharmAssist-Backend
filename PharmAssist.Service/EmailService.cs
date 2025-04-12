@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using PharmAssist.Core.Entities.OTP;
+using System.Security.Cryptography;
 
 namespace PharmAssist.Service
 {
@@ -22,14 +23,25 @@ namespace PharmAssist.Service
 			_emailConfig = emailConfig.Value;
 			_otpConfig=otpConfig.Value;
 		}
-		public string GenerateOtp()
-		{
-			var random = new Random();
-			var otpLength = _otpConfig.Length;
-			return new string(Enumerable.Range(0, otpLength).Select(_ => (char)random.Next('0', '9' + 1)).ToArray());
-		}
-		
-		public async Task SendEmailAsync(Message message)
+        public string GenerateOtp()
+        {
+            int otp = RandomNumberGenerator.GetInt32(0, (int)Math.Pow(10, _otpConfig.Length));
+            return otp.ToString($"D{_otpConfig.Length}");
+        }
+        public async Task SendOtpEmailAsync(string toEmail, string otpCode)
+        {
+            var message = new Message(
+                new[] { toEmail },
+                "Your OTP Code",
+                $"Please use the OTP code below to verify your identity.",
+                otpCode
+            );
+
+            await SendEmailAsync(message);
+        }
+
+
+        public async Task SendEmailAsync(Message message)
 		{
 			var emailMessage = CreateEmailMessage(message);
 

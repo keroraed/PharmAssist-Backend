@@ -27,3 +27,18 @@ D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Core\obj\Deb
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.genruntimeconfig.cache
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Core\obj\Debug\net8.0\ref\PharmAssist.Core.dll
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.sourcelink.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\bin\Debug\net8.0\PharmAssist.Core.deps.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\bin\Debug\net8.0\PharmAssist.Core.runtimeconfig.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\bin\Debug\net8.0\PharmAssist.Core.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\bin\Debug\net8.0\PharmAssist.Core.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.csproj.AssemblyReference.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.AssemblyInfoInputs.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.AssemblyInfo.cs
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.csproj.CoreCompileInputs.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.sourcelink.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\refint\PharmAssist.Core.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.genruntimeconfig.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\ref\PharmAssist.Core.dll

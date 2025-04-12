@@ -33,3 +33,21 @@ D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\o
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.genruntimeconfig.cache
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\obj\Debug\net8.0\ref\PharmAssist.Repository.dll
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.sourcelink.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Repository.deps.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Repository.runtimeconfig.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Repository.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Repository.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Core.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Core.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.csproj.AssemblyReference.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.AssemblyInfoInputs.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.AssemblyInfo.cs
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.csproj.CoreCompileInputs.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.sourcelink.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAss.CD529E3E.Up2Date
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\refint\PharmAssist.Repository.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.genruntimeconfig.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\ref\PharmAssist.Repository.dll

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\PharmAssist.csproj": {}
+    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj": {}
   },
   "projects": {
-    "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj",
+        "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
         "projectName": "PharmAssist.Core",
-        "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\obj\\",
+        "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
+        "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
+        "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,21 +97,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
+    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
+        "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
         "projectName": "PharmAssist.Repository",
-        "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Repository\\obj\\",
+        "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
+        "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
+        "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -122,8 +130,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-                "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj"
+              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
               }
             }
           }
@@ -190,21 +198,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Service\\PharmAssist.Service.csproj": {
+    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Service\\PharmAssist.Service.csproj",
+        "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj",
         "projectName": "PharmAssist.Service",
-        "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Service\\PharmAssist.Service.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Service\\obj\\",
+        "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj",
+        "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
+        "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -219,8 +231,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-                "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj"
+              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
+              },
+              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
+                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
               }
             }
           }
@@ -287,21 +302,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\PharmAssist.csproj": {
+    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\PharmAssist.csproj",
+        "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
         "projectName": "PharmAssist",
-        "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\PharmAssist.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\obj\\",
+        "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
+        "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
+        "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -316,14 +335,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-                "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj"
+              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
               },
-              "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
-                "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
+              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
+                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
               },
-              "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Service\\PharmAssist.Service.csproj": {
-                "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Service\\PharmAssist.Service.csproj"
+              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
+                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj"
               }
             }
           }
@@ -397,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

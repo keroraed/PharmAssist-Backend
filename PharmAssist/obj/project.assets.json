@@ -1758,7 +1758,8 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.14",
           "Microsoft.EntityFrameworkCore": "8.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14",
-          "PharmAssist.Core": "1.0.0"
+          "PharmAssist.Core": "1.0.0",
+          "PharmAssist.Repository": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PharmAssist.Service.dll": {}
@@ -4625,19 +4626,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hp\\.nuget\\packages\\": {}
+    "C:\\Users\\Kerolos raed\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\PharmAssist.csproj",
+      "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
       "projectName": "PharmAssist",
-      "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\PharmAssist.csproj",
-      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist\\obj\\",
+      "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.csproj",
+      "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
+      "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4652,14 +4658,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-              "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Core\\PharmAssist.Core.csproj"
+            "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+              "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
             },
-            "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
-              "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
+            "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
+              "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
             },
-            "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Service\\PharmAssist.Service.csproj": {
-              "projectPath": "D:\\Bosy\\Graduation project\\PharmAssist Code\\PharmAssist\\PharmAssist.Service\\PharmAssist.Service.csproj"
+            "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
+              "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj"
             }
           }
         }
@@ -4733,7 +4739,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

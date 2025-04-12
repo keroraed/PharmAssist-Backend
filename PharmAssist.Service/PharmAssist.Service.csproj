@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PharmAssist.Core\PharmAssist.Core.csproj" />
+    <ProjectReference Include="..\PharmAssist.Repository\PharmAssist.Repository.csproj" />
   </ItemGroup>
 
 </Project>

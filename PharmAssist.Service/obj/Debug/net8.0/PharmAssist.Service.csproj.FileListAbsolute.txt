@@ -33,3 +33,23 @@ D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.genruntimeconfig.cache
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\ref\PharmAssist.Service.dll
 D:\Bosy\Graduation project\PharmAssist Code\PharmAssist\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.sourcelink.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.deps.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.runtimeconfig.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Core.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Repository.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Core.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Repository.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.csproj.AssemblyReference.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.AssemblyInfoInputs.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.AssemblyInfo.cs
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.csproj.CoreCompileInputs.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.sourcelink.json
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAss.94AEB37E.Up2Date
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\refint\PharmAssist.Service.dll
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.pdb
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.genruntimeconfig.cache
+D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\ref\PharmAssist.Service.dll

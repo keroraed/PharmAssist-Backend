@@ -9,6 +9,7 @@ using PharmAssist.Core.Entities.OTP;
 using PharmAssist.Extensions;
 using PharmAssist.MiddleWares;
 using PharmAssist.Repository.Identity;
+using PharmAssist.Service;
 
 namespace PharmAssist
 {
@@ -36,13 +37,19 @@ namespace PharmAssist
 				Options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
 			});
 
-			//builder.Services.AddSingleton<IConnectionMultiplexer>(Options =>
-			//{
-			//	var connection = builder.Configuration.GetConnectionString("RedisConnection");
-			//	return ConnectionMultiplexer.Connect(connection);
-			//});
+            //builder.Services.AddSingleton<IConnectionMultiplexer>(Options =>
+            //{
+            //	var connection = builder.Configuration.GetConnectionString("RedisConnection");
+            //	return ConnectionMultiplexer.Connect(connection);
+            //});
 
-			builder.Services.AddApplicationServices();
+
+            builder.Services.AddScoped<EmailService>();
+            builder.Services.AddScoped<OtpService>();
+            builder.Services.Configure<OtpConfiguration>(builder.Configuration.GetSection("OtpSettings"));
+            builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("EmailSettings"));
+
+            builder.Services.AddApplicationServices();
 
 			builder.Services.AddIdentityServices(builder.Configuration);
 			builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("EmailConfiguration"));
