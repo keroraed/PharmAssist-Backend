@@ -7,28 +7,36 @@
       "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.service\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|solutionrelative:pharmassist.service\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\pharmassist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\pharmassist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|solutionrelative:pharmassist.service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.core\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.service\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|solutionrelative:pharmassist.service\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|solutionrelative:pharmassist.service\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.repository\\identity\\migrations\\20250412032102_addotpentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|solutionrelative:pharmassist.repository\\identity\\migrations\\20250412032102_addotpentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.core\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.core\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.core\\entities\\otp\\otpentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,16 +47,20 @@
       "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\entities\\otp\\otpconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.core\\entities\\email\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\entities\\email\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.core\\entities\\email\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\entities\\email\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\controllers\\otpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\otpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\pharmassist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\pharmassist.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.repository\\identity\\migrations\\20250412032102_addotpentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50F272E-47AD-41D2-9C6E-80E56777C4D3}|PharmAssist.Repository\\PharmAssist.Repository.csproj|solutionrelative:pharmassist.repository\\identity\\migrations\\20250412032102_addotpentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,15 +134,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Services\\ITokenService.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\ITokenService.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T03:38:23.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Service\\EmailService.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\EmailService.cs",
+              "RelativeToolTip": "PharmAssist.Service\\EmailService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwDoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:13:38.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OtpService.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\OtpService.cs",
               "RelativeDocumentMoniker": "PharmAssist.Service\\OtpService.cs",
               "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\OtpService.cs",
               "RelativeToolTip": "PharmAssist.Service\\OtpService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wCgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:12:26.958Z"
+              "WhenOpened": "2025-04-12T03:12:26.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\TokenService.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Service\\TokenService.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\TokenService.cs",
+              "RelativeToolTip": "PharmAssist.Service\\TokenService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T03:11:31.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "PharmAssist\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAkwEIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:03:05.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Program.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Program.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Program.cs",
+              "RelativeToolTip": "PharmAssist\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T03:23:26.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PharmAssist.http",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.http",
+              "RelativeDocumentMoniker": "PharmAssist\\PharmAssist.http",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.http",
+              "RelativeToolTip": "PharmAssist\\PharmAssist.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-12T03:37:03.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -144,14 +231,92 @@
               "RelativeDocumentMoniker": "PharmAssist\\appsettings.json",
               "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\appsettings.json",
               "RelativeToolTip": "PharmAssist\\appsettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-11T18:29:00.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Services\\IEmailService.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\IEmailService.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T03:38:12.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OtpEntry.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\OTP\\OtpEntry.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Entities\\OTP\\OtpEntry.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\OTP\\OtpEntry.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Entities\\OTP\\OtpEntry.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:46:27.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OtpConfiguration.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\OTP\\OtpConfiguration.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Entities\\OTP\\OtpConfiguration.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\OTP\\OtpConfiguration.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Entities\\OTP\\OtpConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T21:41:33.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailConfig.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\Email\\EmailConfig.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Entities\\Email\\EmailConfig.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\Email\\EmailConfig.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Entities\\Email\\EmailConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:23:34.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\Email\\Message.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Core\\Entities\\Email\\Message.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\Email\\Message.cs",
+              "RelativeToolTip": "PharmAssist.Core\\Entities\\Email\\Message.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T17:23:46.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OtpController.cs",
+              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\OtpController.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\OtpController.cs",
+              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\OtpController.cs",
+              "RelativeToolTip": "PharmAssist\\Controllers\\OtpController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAzwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T03:22:30.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "20250412032102_AddOtpEntry.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\Identity\\Migrations\\20250412032102_AddOtpEntry.cs",
               "RelativeDocumentMoniker": "PharmAssist.Repository\\Identity\\Migrations\\20250412032102_AddOtpEntry.cs",
@@ -163,91 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "PharmAssist.Core\\Services\\ITokenService.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\ITokenService.cs",
-              "RelativeToolTip": "PharmAssist.Core\\Services\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:38:23.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\IEmailService.cs",
-              "RelativeDocumentMoniker": "PharmAssist.Core\\Services\\IEmailService.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\IEmailService.cs",
-              "RelativeToolTip": "PharmAssist.Core\\Services\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:38:12.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PharmAssist.http",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.http",
-              "RelativeDocumentMoniker": "PharmAssist\\PharmAssist.http",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.http",
-              "RelativeToolTip": "PharmAssist\\PharmAssist.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-04-12T03:37:03.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OtpController.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\OtpController.cs",
-              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\OtpController.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\OtpController.cs",
-              "RelativeToolTip": "PharmAssist\\Controllers\\OtpController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:22:30.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\EmailService.cs",
-              "RelativeDocumentMoniker": "PharmAssist.Service\\EmailService.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\EmailService.cs",
-              "RelativeToolTip": "PharmAssist.Service\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T20:13:38.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\TokenService.cs",
-              "RelativeDocumentMoniker": "PharmAssist.Service\\TokenService.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\TokenService.cs",
-              "RelativeToolTip": "PharmAssist.Service\\TokenService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:11:31.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OtpConfiguration.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\OTP\\OtpConfiguration.cs",
-              "RelativeDocumentMoniker": "PharmAssist.Core\\Entities\\OTP\\OtpConfiguration.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\OTP\\OtpConfiguration.cs",
-              "RelativeToolTip": "PharmAssist.Core\\Entities\\OTP\\OtpConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T21:41:33.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "AppIdentityDbContext.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\Identity\\AppIdentityDbContext.cs",
               "RelativeDocumentMoniker": "PharmAssist.Repository\\Identity\\AppIdentityDbContext.cs",
@@ -259,31 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OtpEntry.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\OTP\\OtpEntry.cs",
-              "RelativeDocumentMoniker": "PharmAssist.Core\\Entities\\OTP\\OtpEntry.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\OTP\\OtpEntry.cs",
-              "RelativeToolTip": "PharmAssist.Core\\Entities\\OTP\\OtpEntry.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T21:46:27.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Program.cs",
-              "RelativeDocumentMoniker": "PharmAssist\\Program.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Program.cs",
-              "RelativeToolTip": "PharmAssist\\Program.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T03:23:26.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "APIBaseController.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\APIBaseController.cs",
               "RelativeDocumentMoniker": "PharmAssist\\Controllers\\APIBaseController.cs",
@@ -295,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "PharmAssist\\DTOs\\LoginDTO.cs",
@@ -307,7 +364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AppIdentityDbContextSeed.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\Identity\\AppIdentityDbContextSeed.cs",
               "RelativeDocumentMoniker": "PharmAssist.Repository\\Identity\\AppIdentityDbContextSeed.cs",
@@ -319,19 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\AccountsController.cs",
-              "ToolTip": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "PharmAssist\\Controllers\\AccountsController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAwwEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:03:05.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "PharmAssist\\DTOs\\UserDTO.cs",
@@ -343,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\DTOs\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "PharmAssist\\DTOs\\RegisterDTO.cs",
@@ -355,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AppUser.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Entities\\Identity\\AppUser.cs",
               "RelativeDocumentMoniker": "PharmAssist.Core\\Entities\\Identity\\AppUser.cs",

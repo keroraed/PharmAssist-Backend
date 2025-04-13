@@ -24,61 +24,59 @@ namespace PharmAssist.Controllers
 		private readonly ITokenService _tokenService;
 		private readonly IMapper _mapper;
 		private readonly IEmailService _emailService;
+        private readonly OtpService _otpService;
+
+        public AccountsController(
+            UserManager<AppUser> userManager,
+            SignInManager<AppUser> signInManager,
+            ITokenService tokenService,
+            IMapper mapper,
+            IEmailService emailService,
+            OtpService otpService
+        )
+        {
+            _userManager = userManager;
+            _signInManager = signInManager;
+            _tokenService = tokenService;
+            _mapper = mapper;
+            _emailService = emailService;
+            _otpService = otpService;
+        }
+
+        //public AccountsController()
+        //{
+        //}
 
 
+        [HttpPost("Register")]
+        public async Task<ActionResult<UserDTO>> Register(RegisterDTO model)
+        {
+            if (CheckEmailExists(model.Email).Result.Value)
+                return BadRequest(new ApiResponse(400, "This email is already in use"));
 
-		public AccountsController(UserManager<AppUser> userManager,
-			SignInManager<AppUser> signInManager,
-			   ITokenService tokenService,
-			   IMapper mapper,
-			   IEmailService emailService
-			   )
-        { 
-			_userManager = userManager;
-			_signInManager = signInManager;
-			_tokenService = tokenService;
-			_mapper = mapper;
-			_emailService = emailService;
-		}
+            var user = new AppUser()
+            {
+                DisplayName = model.DisplayName,
+                Email = model.Email,
+                UserName = model.Email.Split('@')[0],
+            };
+            var result = await _userManager.CreateAsync(user, model.Password);
 
-		//public AccountsController()
-		//{
-		//}
+            if (!result.Succeeded) return BadRequest(new ApiResponse(400));
 
-		
-		[HttpPost("Register")]
-		public async Task<ActionResult<UserDTO>> Register(RegisterDTO model)
-		{
-			if (CheckEmailExists(model.Email).Result.Value)
-				return BadRequest(new ApiResponse(400, "This email is already in use"));
+            await _otpService.SendOtpAsync(user.Email); // <--- sends + stores OTP
 
-			var user = new AppUser()
-			{
-				DisplayName=model.DisplayName,
-				Email=model.Email,
-				UserName = model.Email.Split('@')[0],
-			};
-			var result= await _userManager.CreateAsync(user,model.Password); 
-
-			if (!result.Succeeded) return BadRequest(new ApiResponse(400));
+            var ReturnedUser = new UserDTO()
+            {
+                DisplayName = user.DisplayName,
+                Email = user.Email,
+                Token = await _tokenService.CreateTokenAsync(user, _userManager)
+            };
+            return Ok(ReturnedUser);
+        }
 
 
-			var otp = _emailService.GenerateOtp();
-
-			var message = new Message(new string[] { user.Email }, "Your Otp Code",otp);
-			await _emailService.SendEmailAsync(message);
-
-			var ReturnedUser = new UserDTO()
-			{
-				DisplayName = user.DisplayName,
-				Email = user.Email,
-				Token =await  _tokenService.CreateTokenAsync(user, _userManager)
-			};
-			return Ok(ReturnedUser);
-		}
-
-
-		[HttpPost("Login")]
+        [HttpPost("Login")]
 		public async Task<ActionResult<UserDTO>> Login(LoginDTO model)
 		{
 			var user = await _userManager.FindByEmailAsync(model.Email);
