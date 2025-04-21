@@ -42,3 +42,20 @@ D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\refint\Pha
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.pdb
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.genruntimeconfig.cache
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Core\obj\Debug\net8.0\ref\PharmAssist.Core.dll
+<<<<<<< HEAD
+=======
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\bin\Debug\net8.0\PharmAssist.Core.deps.json
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\bin\Debug\net8.0\PharmAssist.Core.runtimeconfig.json
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\bin\Debug\net8.0\PharmAssist.Core.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\bin\Debug\net8.0\PharmAssist.Core.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.AssemblyInfo.cs
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\refint\PharmAssist.Core.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\PharmAssist.Core.genruntimeconfig.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\obj\Debug\net8.0\ref\PharmAssist.Core.dll
+>>>>>>> 0741810 (Forgot password)

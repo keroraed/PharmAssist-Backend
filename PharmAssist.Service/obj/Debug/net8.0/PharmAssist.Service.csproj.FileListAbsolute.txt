@@ -53,3 +53,25 @@ D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\refint\
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.pdb
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.genruntimeconfig.cache
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Service\obj\Debug\net8.0\ref\PharmAssist.Service.dll
+<<<<<<< HEAD
+=======
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.deps.json
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.runtimeconfig.json
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Service.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Core.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Repository.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Core.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\bin\Debug\net8.0\PharmAssist.Repository.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.AssemblyInfo.cs
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAss.94AEB37E.Up2Date
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\refint\PharmAssist.Service.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\PharmAssist.Service.genruntimeconfig.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Service\obj\Debug\net8.0\ref\PharmAssist.Service.dll
+>>>>>>> 0741810 (Forgot password)

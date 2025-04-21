@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PharmAssist.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14599530808fb385138f0a4d1644945d27ed354e")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> 0741810 (Forgot password)
 [assembly: System.Reflection.AssemblyProductAttribute("PharmAssist.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PharmAssist.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

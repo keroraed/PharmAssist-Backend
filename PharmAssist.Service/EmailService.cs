@@ -32,8 +32,13 @@ namespace PharmAssist.Service
         {
             var message = new Message(
                 new[] { toEmail },
+<<<<<<< HEAD
                 "Your OTP Code",
                 $"Please use the OTP code below to verify your identity.",
+=======
+                "Your Otp Code",
+                $"",
+>>>>>>> 0741810 (Forgot password)
                 otpCode
             );
 
@@ -59,7 +64,7 @@ namespace PharmAssist.Service
 			emailMessage.Subject = message.Subject;
 			var bodyContent = string.IsNullOrEmpty(message.Otp)
 			? message.Content
-			: $"{message.Content}\nYour OTP is : {message.Otp}. It will expire in {_otpConfig.ExpiryMinutes} minutes.";
+			: $"{message.Content}\nYour Otp is : {message.Otp}. It will expire in {_otpConfig.ExpiryMinutes} minutes.";
 
 			emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Text) { Text = bodyContent };
 

@@ -42,6 +42,34 @@ namespace PharmAssist
             //	var connection = builder.Configuration.GetConnectionString("RedisConnection");
             //	return ConnectionMultiplexer.Connect(connection);
             //});
+<<<<<<< HEAD
+=======
+
+
+            builder.Services.AddScoped<EmailService>();
+            builder.Services.AddScoped<OtpService>();
+            builder.Services.Configure<OtpConfiguration>(builder.Configuration.GetSection("OtpSettings"));
+            builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("EmailSettings"));
+
+            builder.Services.AddApplicationServices();
+
+			builder.Services.AddIdentityServices(builder.Configuration);
+			builder.Services.Configure<EmailConfig>(builder.Configuration.GetSection("EmailConfiguration"));
+			builder.Services.AddSingleton(resolver => resolver.GetRequiredService<IOptions<EmailConfig>>().Value);
+			builder.Services.Configure<OtpConfiguration>(builder.Configuration.GetSection("OtpConfiguration"));
+			builder.Services.AddSingleton(resolver => resolver.GetRequiredService<IOptions<OtpConfiguration>>().Value);
+
+			builder.Services.AddCors(Options =>
+			{
+				Options.AddPolicy("MyPolicy", options =>
+				{
+					options.AllowAnyHeader();
+					options.AllowAnyMethod();
+					options.AllowAnyOrigin();
+				});
+			});
+			#endregion
+>>>>>>> 0741810 (Forgot password)
 
 
             builder.Services.AddScoped<EmailService>();

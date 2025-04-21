@@ -53,6 +53,7 @@ namespace PharmAssist.Controllers
         {
             if (CheckEmailExists(model.Email).Result.Value)
                 return BadRequest(new ApiResponse(400, "This email is already in use"));
+<<<<<<< HEAD
 
             var user = new AppUser()
             {
@@ -75,12 +76,40 @@ namespace PharmAssist.Controllers
             return Ok(ReturnedUser);
         }
 
+=======
+
+			var user = new AppUser()
+			{
+				DisplayName = model.Name,
+				Email = model.Email,
+				UserName = model.Email.Split('@')[0],
+				EmailConfirmed = false
+			};
+            var result = await _userManager.CreateAsync(user, model.Password);
+
+            if (!result.Succeeded) return BadRequest(new ApiResponse(400));
+
+            await _otpService.SendOtpAsync(user.Email); // <--- sends + stores OTP
+            
+            return Ok(new
+			{
+				success= true,
+				Message= "User registered successfully. Please check your email for the OTP.",
+			});
+        }
+
+>>>>>>> 0741810 (Forgot password)
 
         [HttpPost("Login")]
 		public async Task<ActionResult<UserDTO>> Login(LoginDTO model)
 		{
 			var user = await _userManager.FindByEmailAsync(model.Email);
 			if (user is null) return Unauthorized(new ApiResponse(401));
+
+			if(!user.EmailConfirmed)
+			{
+				return BadRequest(new ApiResponse(400, "Email not confirmed. Please check your email for the OTP."));
+			}
 
 			var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
 			if (!result.Succeeded) return Unauthorized(new ApiResponse(401));
@@ -91,9 +120,51 @@ namespace PharmAssist.Controllers
 				Email = user.Email,
 				Token = await _tokenService.CreateTokenAsync(user, _userManager)
 			});
-
 		}
 
+		[HttpPost("ForgotPassword")]
+		public async Task<IActionResult> ForgotPassword(ForgotPasswordDTO model)
+		{
+			var user = await _userManager.FindByEmailAsync(model.Email);
+			if (user == null) return BadRequest(new ApiResponse(400, "User not found."));
+
+			// Generate and send OTP
+			await _otpService.SendOtpAsync(user.Email);
+
+			return Ok(new { success = true, message = "OTP sent to your email for password reset." });
+		}
+
+		[HttpPost("ResetPassword")]
+		public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDTO model)
+		{
+			if (!ModelState.IsValid)
+			{
+				return BadRequest(new { success = false, message = "Invalid input data." });
+			}
+
+			var (isValid, errorMessage) = await _otpService.VerifyOtpAsync(model.Email, model.Otp);
+			if (!isValid)
+			{
+				return BadRequest(new { success = false, message = errorMessage });
+			}
+
+			var user = await _userManager.FindByEmailAsync(model.Email);
+			if (user == null)
+			{
+				return BadRequest(new { success = false, message = "User not found." });
+			}
+
+			var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+			var resetResult = await _userManager.ResetPasswordAsync(user, resetToken, model.Password);
+			if (!resetResult.Succeeded)
+			{
+				var errors = resetResult.Errors.Select(e => e.Description).ToList();
+				return BadRequest(new { success = false, message = "Password reset failed.", errors });
+			}
+
+			return Ok(new { success = true, message = "Password reset successful." });
+		}
 
 		[Authorize]
 		[HttpGet("GetCurrentUser")]

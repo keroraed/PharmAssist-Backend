@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\Kerolos raed\\PharmAssist-Backend\\",
   "Documents": [
     {
@@ -89,6 +90,37 @@
     {
       "AbsoluteMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|d:\\kerolos raed\\pharmassist-backend\\pharmassist.core\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BC13C8B-6A92-42A4-91EA-A38C3EC46369}|PharmAssist.Core\\PharmAssist.Core.csproj|solutionrelative:pharmassist.core\\entities\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.service\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|solutionrelative:pharmassist.service\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\controllers\\otpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\controllers\\otpcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist.service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F2D037-8557-49ED-A5D5-19456EB0BB42}|PharmAssist.Service\\PharmAssist.Service.csproj|solutionrelative:pharmassist.service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|c:\\users\\hp\\desktop\\pharmassist-backend-main\\pharmassist\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E8FAD46-3FCD-4611-AFE4-C648BF0830E3}|PharmAssist\\PharmAssist.csproj|solutionrelative:pharmassist\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 0741810 (Forgot password)
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +130,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 13,
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> 0741810 (Forgot password)
           "Children": [
             {
               "$type": "Bookmark",
@@ -129,11 +165,8 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "TokenService.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\TokenService.cs",
@@ -167,10 +200,22 @@
               "ViewState": "AgIAAEsAAAAAAAAAAAASwF0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T03:23:26.717Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\DTOs\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "PharmAssist\\DTOs\\ResetPasswordDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:50:46.909Z",
+>>>>>>> 0741810 (Forgot password)
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 4,
               "Title": "PharmAssist.http",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist\\PharmAssist.http",
@@ -206,10 +251,22 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T17:47:40.825Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 2,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "PharmAssist\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAswGQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:50:22.376Z"
+>>>>>>> 0741810 (Forgot password)
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< HEAD
               "Title": "ITokenService.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\Services\\ITokenService.cs",
               "RelativeDocumentMoniker": "PharmAssist.Core\\Services\\ITokenService.cs",
@@ -219,10 +276,45 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T03:38:23.342Z",
               "EditorCaption": ""
+=======
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Service\\OtpService.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Service\\OtpService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Service\\OtpService.cs",
+              "RelativeToolTip": "PharmAssist.Service\\OtpService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADgvx0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T20:27:38.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OtpController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Controllers\\OtpController.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\Controllers\\OtpController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\Controllers\\OtpController.cs",
+              "RelativeToolTip": "PharmAssist\\Controllers\\OtpController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwCEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:13:07.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "PharmAssist.Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Service\\EmailService.cs",
+              "RelativeToolTip": "PharmAssist.Service\\EmailService.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAwwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:53:19.208Z"
+>>>>>>> 0741810 (Forgot password)
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< HEAD
               "Title": "OtpService.cs",
               "DocumentMoniker": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\OtpService.cs",
               "RelativeDocumentMoniker": "PharmAssist.Service\\OtpService.cs",
@@ -409,6 +501,28 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+=======
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "PharmAssist\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T15:18:14.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForgotPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\DTOs\\ForgotPasswordDTO.cs",
+              "RelativeDocumentMoniker": "PharmAssist\\DTOs\\ForgotPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist\\DTOs\\ForgotPasswordDTO.cs",
+              "RelativeToolTip": "PharmAssist\\DTOs\\ForgotPasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T17:31:12.71Z"
+>>>>>>> 0741810 (Forgot password)
             }
           ]
         }

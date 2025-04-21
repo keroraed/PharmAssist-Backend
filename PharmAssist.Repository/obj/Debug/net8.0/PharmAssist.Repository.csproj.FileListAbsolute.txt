@@ -51,3 +51,23 @@ D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\refi
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.pdb
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.genruntimeconfig.cache
 D:\Kerolos raed\PharmAssist-Backend\PharmAssist.Repository\obj\Debug\net8.0\ref\PharmAssist.Repository.dll
+<<<<<<< HEAD
+=======
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Repository.deps.json
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Repository.runtimeconfig.json
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Repository.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Repository.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Core.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\bin\Debug\net8.0\PharmAssist.Core.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.csproj.AssemblyReference.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.AssemblyInfo.cs
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAss.CD529E3E.Up2Date
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\refint\PharmAssist.Repository.dll
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.pdb
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\PharmAssist.Repository.genruntimeconfig.cache
+C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Repository\obj\Debug\net8.0\ref\PharmAssist.Repository.dll
+>>>>>>> 0741810 (Forgot password)

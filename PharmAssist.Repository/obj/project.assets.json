@@ -4164,11 +4164,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
       "projectName": "PharmAssist.Repository",
       "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
       "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
       "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
+      "projectName": "PharmAssist.Repository",
+      "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
+      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\obj\\",
+>>>>>>> 0741810 (Forgot password)
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4190,8 +4198,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
               "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
+=======
+            "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\PharmAssist.Core.csproj": {
+              "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\PharmAssist.Core.csproj"
+>>>>>>> 0741810 (Forgot password)
             }
           }
         }

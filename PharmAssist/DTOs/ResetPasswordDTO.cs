@@ -2,15 +2,11 @@
 
 namespace PharmAssist.DTOs
 {
-	public class RegisterDTO
+	public class ResetPasswordDTO
 	{
 		[Required]
 		[EmailAddress]
 		public string Email { get; set; }
-
-		[Required]
-		public string Name { get; set; }
-
 
 		[Required]
 		[RegularExpression("(?=^.{6,10}$)(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&amp;*()_+]).*$",
@@ -20,6 +16,6 @@ namespace PharmAssist.DTOs
 		[Compare("Password", ErrorMessage = "Passwords do not match.")]
 		public string ConfirmPassword { get; set; }
 
-
+		public string Otp { get; set; }
 	}
 }

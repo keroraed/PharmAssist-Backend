@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "J/n6nWePcQQ=",
   "success": true,
   "projectFilePath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
+=======
+  "dgSpecHash": "qpAPrMOAzP4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\PharmAssist.Core.csproj",
+>>>>>>> 0741810 (Forgot password)
   "expectedPackageFiles": [
     "C:\\Users\\Kerolos raed\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Kerolos raed\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
