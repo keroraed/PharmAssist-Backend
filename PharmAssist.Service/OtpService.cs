@@ -8,40 +8,33 @@ using PharmAssist.Repository.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using PharmAssist.Service;
-<<<<<<< HEAD
-=======
 using Microsoft.AspNetCore.Identity;
 using PharmAssist.Core.Entities.Identity;
->>>>>>> 0741810 (Forgot password)
+
+
 
 public class OtpService
 {
     private readonly AppIdentityDbContext _context;
     private readonly OtpConfiguration _otpConfig;
-<<<<<<< HEAD
     private readonly EmailService _emailService;
+	private readonly UserManager<AppUser> _userManager;
 
-    public OtpService(AppIdentityDbContext context, IOptions<OtpConfiguration> otpConfig, EmailService emailService)
-=======
-    private readonly EmailService _emailService; 
-    private readonly UserManager<AppUser> _userManager;
+	
+
 
 
 	public OtpService(AppIdentityDbContext context, IOptions<OtpConfiguration> otpConfig, EmailService emailService,UserManager<AppUser> userManager)
->>>>>>> 0741810 (Forgot password)
     {
         _context = context;
         _otpConfig = otpConfig.Value;
         _emailService = emailService;
-<<<<<<< HEAD
-=======
         _userManager = userManager;
->>>>>>> 0741810 (Forgot password)
     }
 
     public async Task SendOtpAsync(string email)
     {
-<<<<<<< HEAD
+
         var code = _emailService.GenerateOtp(); // use existing logic
 
         var entry = new OtpEntry
@@ -59,44 +52,6 @@ public class OtpService
         await _emailService.SendOtpEmailAsync(email, code);
     }
 
-    public async Task<bool> VerifyOtpAsync(string email, string code)
-    {
-        var entry = await _context.OtpEntries
-            .Where(x => x.Email == email && x.Code == code && !x.IsUsed)
-            .OrderByDescending(x => x.CreatedAt)
-            .FirstOrDefaultAsync();
-
-        if (entry == null || entry.ExpiresAt < DateTime.UtcNow)
-            return false;
-
-        entry.IsUsed = true;
-        await _context.SaveChangesAsync();
-        return true;
-=======
-        try
-		{
-			var code = _emailService.GenerateOtp(); // use existing logic
-
-			var entry = new OtpEntry
-			{
-				Email = email,
-				Code = code,
-				ExpiresAt = DateTime.Now.AddMinutes(_otpConfig.ExpiryMinutes),
-				IsUsed = false,
-				CreatedAt = DateTime.Now
-			};
-
-			_context.OtpEntries.Add(entry);
-			await _context.SaveChangesAsync();
-
-			await _emailService.SendOtpEmailAsync(email, code);
-		}
-        catch (Exception ex)
-        {
-            Console.WriteLine("Exception: "+ex);
-        }
-       
-    }
 
     public async Task<(bool IsValid, string? ErrorMessage)> VerifyOtpAsync(string email, string code)
     {
@@ -125,6 +80,5 @@ public class OtpService
 			return (false, "An error occurred while verifying the OTP.");
 		}
         
->>>>>>> 0741810 (Forgot password)
     }
 }

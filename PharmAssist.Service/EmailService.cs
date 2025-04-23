@@ -32,14 +32,8 @@ namespace PharmAssist.Service
         {
             var message = new Message(
                 new[] { toEmail },
-<<<<<<< HEAD
-                "Your OTP Code",
-                $"Please use the OTP code below to verify your identity.",
-=======
-                "Your Otp Code",
-                $"",
->>>>>>> 0741810 (Forgot password)
-                otpCode
+                "",
+                $"",otpCode
             );
 
             await SendEmailAsync(message);

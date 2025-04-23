@@ -8,10 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PharmAssist.Core
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\Hp\Source\Repos\BasantKamal\PharmAssist-Backend\PharmAssist.Core\
-=======
 build_property.ProjectDir = C:\Users\Hp\Desktop\PharmAssist-Backend-main\PharmAssist.Core\
->>>>>>> 0741810 (Forgot password)
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

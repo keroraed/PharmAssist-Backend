@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {}
-  },
-  "projects": {
-    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
-        "projectName": "PharmAssist.Core",
-        "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
-        "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
-        "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\obj\\",
-=======
     "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Service\\PharmAssist.Service.csproj": {}
   },
   "projects": {
@@ -25,14 +12,9 @@
         "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\PharmAssist.Core.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\obj\\",
->>>>>>> 0741810 (Forgot password)
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,20 +93,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
-    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
-        "projectName": "PharmAssist.Repository",
-        "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
-        "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
-        "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\obj\\",
-=======
     "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -133,14 +105,9 @@
         "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\PharmAssist.Repository.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\obj\\",
->>>>>>> 0741810 (Forgot password)
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,10 +122,6 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-<<<<<<< HEAD
-              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
-=======
               "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\PharmAssist.Core.csproj": {
                 "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\PharmAssist.Core.csproj"
               }
@@ -261,7 +224,6 @@
               },
               "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
                 "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
->>>>>>> 0741810 (Forgot password)
               }
             }
           }
@@ -328,111 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj",
-        "projectName": "PharmAssist.Service",
-        "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\PharmAssist.Service.csproj",
-        "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
-        "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj"
-              },
-              "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj": {
-                "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Repository\\PharmAssist.Repository.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[14.0.0, )"
-            },
-            "MailKit": {
-              "target": "Package",
-              "version": "[4.11.0, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[8.0.14, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.14, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.14, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.14, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.14, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

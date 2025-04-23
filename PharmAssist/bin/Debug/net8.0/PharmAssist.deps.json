@@ -1076,10 +1076,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14"
         },
         "runtime": {
-          "PharmAssist.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PharmAssist.Core.dll": {}
         }
       },
       "PharmAssist.Repository/1.0.0": {
@@ -1093,10 +1090,7 @@
           "PharmAssist.Core": "1.0.0"
         },
         "runtime": {
-          "PharmAssist.Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PharmAssist.Repository.dll": {}
         }
       },
       "PharmAssist.Service/1.0.0": {
@@ -1111,10 +1105,7 @@
           "PharmAssist.Repository": "1.0.0"
         },
         "runtime": {
-          "PharmAssist.Service.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PharmAssist.Service.dll": {}
         }
       }
     }

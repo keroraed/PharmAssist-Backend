@@ -18,11 +18,8 @@ namespace PharmAssist.Core.Entities.OTP
         [Required]
         public string Code { get; set; }
 
-<<<<<<< HEAD
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-=======
+
         public DateTime CreatedAt { get; set; } = DateTime.Now;
->>>>>>> 0741810 (Forgot password)
 
         public DateTime ExpiresAt { get; set; }
 

@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {}
-  },
-  "projects": {
-    "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
-        "projectName": "PharmAssist.Core",
-        "projectPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\PharmAssist.Core.csproj",
-        "packagesPath": "C:\\Users\\Kerolos raed\\.nuget\\packages\\",
-        "outputPath": "D:\\Kerolos raed\\PharmAssist-Backend\\PharmAssist.Core\\obj\\",
-=======
     "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\PharmAssist.Core.csproj": {}
   },
   "projects": {
@@ -25,14 +12,9 @@
         "projectPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\PharmAssist.Core.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Hp\\Desktop\\PharmAssist-Backend-main\\PharmAssist.Core\\obj\\",
->>>>>>> 0741810 (Forgot password)
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kerolos raed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

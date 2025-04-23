@@ -1027,27 +1027,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14"
         },
         "runtime": {
-          "PharmAssist.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "PharmAssist.Repository/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "14.0.0",
-          "MailKit": "4.11.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.14",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.14",
-          "Microsoft.EntityFrameworkCore": "8.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14",
-          "PharmAssist.Core": "1.0.0"
-        },
-        "runtime": {
-          "PharmAssist.Repository.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PharmAssist.Core.dll": {}
         }
       },
       "PharmAssist.Repository/1.0.0": {

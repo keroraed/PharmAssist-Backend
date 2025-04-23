@@ -53,30 +53,6 @@ namespace PharmAssist.Controllers
         {
             if (CheckEmailExists(model.Email).Result.Value)
                 return BadRequest(new ApiResponse(400, "This email is already in use"));
-<<<<<<< HEAD
-
-            var user = new AppUser()
-            {
-                DisplayName = model.DisplayName,
-                Email = model.Email,
-                UserName = model.Email.Split('@')[0],
-            };
-            var result = await _userManager.CreateAsync(user, model.Password);
-
-            if (!result.Succeeded) return BadRequest(new ApiResponse(400));
-
-            await _otpService.SendOtpAsync(user.Email); // <--- sends + stores OTP
-
-            var ReturnedUser = new UserDTO()
-            {
-                DisplayName = user.DisplayName,
-                Email = user.Email,
-                Token = await _tokenService.CreateTokenAsync(user, _userManager)
-            };
-            return Ok(ReturnedUser);
-        }
-
-=======
 
 			var user = new AppUser()
 			{
@@ -98,7 +74,6 @@ namespace PharmAssist.Controllers
 			});
         }
 
->>>>>>> 0741810 (Forgot password)
 
         [HttpPost("Login")]
 		public async Task<ActionResult<UserDTO>> Login(LoginDTO model)
