@@ -20,6 +20,7 @@ public class OtpService
     private readonly EmailService _emailService;
 	private readonly UserManager<AppUser> _userManager;
 
+
 	
 
 
@@ -32,31 +33,31 @@ public class OtpService
         _userManager = userManager;
     }
 
-    public async Task SendOtpAsync(string email)
-    {
+	public async Task SendOtpAsync(string email)
+	{
 
-        var code = _emailService.GenerateOtp(); // use existing logic
+		var code = _emailService.GenerateOtp(); // use existing logic
 
-        var entry = new OtpEntry
-        {
-            Email = email,
-            Code = code,
-            ExpiresAt = DateTime.UtcNow.AddMinutes(_otpConfig.ExpiryMinutes),
-            IsUsed = false,
-            CreatedAt = DateTime.UtcNow
-        };
+		var entry = new OtpEntry
+		{
+			Email = email,
+			Code = code,
+			ExpiresAt = DateTime.Now.AddMinutes(_otpConfig.ExpiryMinutes),
+			IsUsed = false,
+			CreatedAt = DateTime.Now
+		};
 
-        _context.OtpEntries.Add(entry);
-        await _context.SaveChangesAsync();
+		_context.OtpEntries.Add(entry);
+		await _context.SaveChangesAsync();
 
-        await _emailService.SendOtpEmailAsync(email, code);
-    }
+		await _emailService.SendOtpEmailAsync(email, code);
+	}
 
 
-    public async Task<(bool IsValid, string? ErrorMessage)> VerifyOtpAsync(string email, string code)
-    {
-        try
-        {
+	public async Task<(bool IsValid, string? ErrorMessage)> VerifyOtpAsync(string email, string code)
+	{
+		try
+		{
 			var entry = await _context.OtpEntries
 			.Where(x => x.Email == email && x.Code == code && !x.IsUsed)
 			.OrderByDescending(x => x.CreatedAt)
@@ -76,9 +77,9 @@ public class OtpService
 		}
 		catch (Exception ex)
 		{
-			Console.WriteLine("Exception: "+ex);
+			Console.WriteLine("Exception: " + ex);
 			return (false, "An error occurred while verifying the OTP.");
 		}
-        
-    }
+
+	}
 }

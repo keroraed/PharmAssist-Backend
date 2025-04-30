@@ -1,12 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using PharmAssist.Core.Entities.Email;
 using PharmAssist.Core.Entities.Identity;
-using PharmAssist.Core.Entities.OTP;
 using PharmAssist.Core.Services;
 using PharmAssist.DTOs;
 using PharmAssist.Errors;
@@ -156,6 +152,36 @@ namespace PharmAssist.Controllers
 			return Ok(returnedUser);
 		}
 
+		#region Questions	
+		[Authorize]
+		[HttpGet("GetAnswers")]
+		public async Task<ActionResult<UserProfileDto>> GetMyProfile()
+		{
+			var user = await _userManager.GetUserAsync(User);
+
+			if (user == null) return Unauthorized();
+
+			var dto = _mapper.Map<UserProfileDto>(user);
+
+			return Ok(dto);
+		}
+
+		[Authorize]
+		[HttpPost("UpdateAnswers")]
+		public async Task<IActionResult> SaveMyProfile([FromBody] UserProfileDto dto)
+		{
+			var user = await _userManager.GetUserAsync(User);
+			if (user == null) return Unauthorized();
+
+			_mapper.Map(dto, user);
+
+			var result = await _userManager.UpdateAsync(user);
+			if (!result.Succeeded)
+				return BadRequest(new { success = false, errors = result.Errors.Select(e => e.Description) });
+
+			return Ok(new { success = true , dto });
+		}
+		#endregion
 
 		[Authorize]
 		[HttpGet("CurrentUserAddress")]

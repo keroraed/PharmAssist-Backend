@@ -59,7 +59,7 @@ public class OtpController : ControllerBase
 		{
 			return BadRequest(new { success = false, message = "An error occurred while verifying the OTP." });
 		}
-		
+
 	}
 }
 

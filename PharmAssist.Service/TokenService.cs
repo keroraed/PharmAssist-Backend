@@ -14,21 +14,18 @@ namespace PharmAssist.Service
 	{
 		private readonly IConfiguration configuration;
 
-		public TokenService(IConfiguration configuration )
-        {
+		public TokenService(IConfiguration configuration)
+		{
 			this.configuration = configuration;
 		}
-        public async Task<string> CreateTokenAsync(AppUser user,UserManager<AppUser> userManager)
+		public async Task<string> CreateTokenAsync(AppUser user, UserManager<AppUser> userManager)
 		{
-			if (user is null)
-			{
-				throw new ArgumentNullException(nameof(user));
-			}
 			//Payload
 			//1.Private claims
 
 			var AuthClaims = new List<Claim>  //claim: properties of user
 			{
+				new Claim(ClaimTypes.NameIdentifier, user.Id),
 				new Claim(ClaimTypes.GivenName,user.DisplayName),
 				new Claim(ClaimTypes.Email,user.Email)
 			};
@@ -44,7 +41,7 @@ namespace PharmAssist.Service
 			var Token = new JwtSecurityToken(
 				issuer: configuration["JWT:ValidIssuer"],
 				audience: configuration["JWT:ValidAudience"],
-				expires: DateTime.Now.AddDays(double.Parse(configuration["JWT:DurationInDays"])),
+				expires: DateTime.UtcNow.AddDays(double.Parse(configuration["JWT:DurationInDays"])),
 				claims: AuthClaims,
 				signingCredentials: new SigningCredentials(AuthKey, SecurityAlgorithms.HmacSha256Signature)
 				);

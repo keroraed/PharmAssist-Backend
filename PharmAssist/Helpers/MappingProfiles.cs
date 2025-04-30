@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using PharmAssist.Core.Entities.Identity;
 using PharmAssist.DTOs;
 
 
@@ -8,12 +9,19 @@ namespace PharmAssist.Helpers
 	{
 		public MappingProfiles()
 		{
+			CreateMap<AppUser, UserProfileDto>();
+			CreateMap<UserProfileDto, AppUser>()
+				.ForMember(dest => dest.Id, opt => opt.Ignore());
+
 			//CreateMap<Product, ProductToReturnDTO>()
 			//	.ForMember(d=>d.ProductType,o=>o.MapFrom(s=>s.ProductType.Name))
 			//	.ForMember(d=>d.ProductBrand,o=>o.MapFrom(s=>s.ProductBrand.Name))
 			//	.ForMember(d => d.PictureUrl,o=>o.MapFrom<ProductPictureUrlResolver>());
 
-			CreateMap<Core.Entities.Identity.Address, AddressDTO>().ReverseMap();
+			CreateMap<Core.Entities.Identity.Address, AddressDTO>().ReverseMap(); 
+
+			
+
 			//CreateMap<AddressDTO,Core.Entities.Order_Aggregation.Address>();
 			//CreateMap<CustomerBasketDTO, CustomerBasket>();
 			//CreateMap<BasketItemDTO, BasketItem>();

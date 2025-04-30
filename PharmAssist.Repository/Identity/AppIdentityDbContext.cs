@@ -12,5 +12,7 @@ namespace PharmAssist.Repository.Identity
         {
         }
         public DbSet<OtpEntry> OtpEntries { get; set; }
-    }
+		
+
+	}
 }
